@@ -1,0 +1,10 @@
+name: remote
+main: io.github.slugsrifle.Main
+version: 1.0
+api-version: 1.17
+depend: [ProtocolLib]
+loadbefore: [ProtocolLib]
+commands: 
+  map:
+    description: test
+    usage: /<command> [start | stop]
